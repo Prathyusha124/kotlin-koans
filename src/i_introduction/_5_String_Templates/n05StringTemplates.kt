@@ -35,4 +35,4 @@ fun todoTask5(): Nothing = TODO(
     documentation = doc5(),
     references = { getPattern(); month })
 
-fun task5(): String = """\d{2}\.\d{2}\.\d{4}"""
+fun task5(): String ="""\d{2}\.\month{3}\.\d{4}"""
